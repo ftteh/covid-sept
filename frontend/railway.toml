@@ -1,0 +1,13 @@
+[build]
+command = "pnpm install --frozen-lockfile && pnpm run build"
+
+[deploy]
+startCommand = "pnpm run start"
+healthcheckPath = "/"
+healthcheckTimeout = 300
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
+
+[env]
+PNPM_VERSION = "8.6.0"
+NODE_VERSION = "18" 
