@@ -1,6 +1,3 @@
-# Developer
-Teh Fook Tin
-
 # Health Declaration System
 
 A production-ready full-stack health declaration management system built with modern technologies for COVID-19 health screening and monitoring.
